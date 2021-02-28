@@ -1,168 +1,235 @@
 <!doctype html>
 <html lang="en">
 
-    <head>
+<head>
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <!-- Custom Stylesheet -->
-        <link rel="stylesheet" href="app.css">
-        <!-- CDN for icons -->
-        <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
-        <!-- Setting Logo for Title -->
-        <link rel="icon" type="image/png" href="images/logo.png">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="app.css">
+    <!-- CDN for icons -->
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+    <!-- Setting Logo for Title -->
+    <link rel="icon" type="image/png" href="images/logo.png">
 
-        <title>ADilka</title>
+    <title>ADilka</title>
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <!-- Navbar -->
-        <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">   
+    <!-- Navbar -->
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
 
-            <a href="#"><img src="images/logo.png" alt="" class="img-fluid img-responsive"></a>
+        <a href="#"><img src="images/logo.png" alt="" class="img-fluid img-responsive"></a>
 
-            <!-- Collapse navbar on reducing screen size -->
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <!-- Collapse navbar on reducing screen size -->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <!-- Links on Navbar -->
-            <div class="collapse navbar-collapse" id="navLinks">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">SERVICES</a>
-                    </li>
-                </ul>
+        <!-- Links on Navbar -->
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#register" class="nav-link">REGISTER</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <!-- Internal Links to Landing Page Sections  -->
+    <div id="side-buttons">
+
+        <a href="#home" class="navigate"><i class="lni lni-home"></i></a>
+        <a href="#services" class="navigate"><i class="lni lni-service"></i></a>
+        <a href="#register" class="navigate"><i class="lni lni-question-circle"></i></a>
+
+    </div>
+
+    <!--Landing Page - Home -->
+    <section class="container-fluid px-0 section-margin" id="home">
+
+        <h1 id="heading">At ADilka, we make AD aapke DIL KA.</h1>
+        <button type="button" class="btn btn-info btn-lg" id="get-started">Get Started!</button>
+        <div class="row align-items-center justify-content-center">
+            <div class="col-xs-12 align-items-center justify-content-cente">
+                <a href="#" class="adlika">A</a>
+                <a href="#" class="adilka reaction"><img class="img-fluid img-responsive-react" src="images/like.png"
+                        alt=""></a>
+                <a href="#" class="adlika">D</a>
+                <a href="#" class="adlika reaction"><img class="img-fluid img-responsive-react " src="images/heart.png"
+                        alt=""></a>
+                <a href="#" class="adlika">il</a>
+                <a href="#" class="adlika reaction"><img class="img-fluid img-responsive-react" src="images/laugh.png"
+                        alt=""></a>
+                <a href="#" class="adlika">ka</a>
             </div>
+            <div class="col-md-12 mt-5">
+                <img class="img-fluid" src="images/home.png" alt="">
+            </div>
+        </div>
 
-        </nav>
+    </section>
 
-        <!-- Internal Links to Landing Page Sections  -->
-        <div id="side-buttons">
+    <!-- Landing Page - Services Offered -->
+    <section class="pxy-0 " id='services'>
 
-            <a href="#home" class="navigate"><i class="lni lni-home"></i></a>
-            <a href="#services" class="navigate"><i class="lni lni-service"></i></a>
-            <a href="#" class="navigate"><i class="lni lni-question-circle"></i></a>
+        <div class="row">
+
+            <div class="col-md-6">
+                <h1 class="onimage">BRAND MANAGEMENT</h1>
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+                        class="gridimg">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h1 class="onimage">CONVENTIONAL MEDIA</h1>
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+                        class="gridimg">
+                </div>
+            </div>
 
         </div>
 
-        <!--Landing Page - Home -->
-        <section class="container-fluid px-0 section-margin" id="home">
+        <div class="row">
 
-            <h1 id="heading">At ADilka, we make AD aapke DIL KA.</h1>
-            <button type="button" class="btn btn-info btn-lg" id="get-started">Get Started!</button>
-            <div class="row align-items-center justify-content-center">
-                <div class="col-xs-12 align-items-center justify-content-cente">
-                    <a href="#" class="adlika">A</a>
-                    <a href="#" class="adilka reaction"><img class="img-fluid img-responsive-react" src="images/like.png"
-                            alt=""></a>
-                    <a href="#" class="adlika">D</a>
-                    <a href="#" class="adlika reaction"><img class="img-fluid img-responsive-react " src="images/heart.png"
-                            alt=""></a>
-                    <a href="#" class="adlika">il</a>
-                    <a href="#" class="adlika reaction"><img class="img-fluid img-responsive-react" src="images/laugh.png"
-                            alt=""></a>
-                    <a href="#" class="adlika">ka</a>
+            <div class="col-md-6 ">
+                <h1 class="onimage">DIGITAL MARKETING</h1>
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1556800467-7b7ba9da0bf8?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80"
+                        class="gridimg">
                 </div>
-                <div class="col-md-12 mt-5">
-                    <img class="img-fluid" src="images/home.png" alt="">
+            </div>
+            <div class="col-md-6 ">
+                <h1 class="onimage">MEDIA PLANNING</h1>
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1585435465945-bef5a93f8849?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+                        class="gridimg">
                 </div>
             </div>
 
-        </section>
+        </div>
 
-        <!-- Landing Page - Services Offered -->
-        <section class="pxy-0 " id='services'>          
+    </section>
 
-            <div class="row">
-
-                <div class="col-md-6">
-                    <h1 class="onimage">BRAND MANAGEMENT</h1>
-                    <div class="thumbnail">                   
-                        <img src="https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" class="gridimg">
-                    </div>
+    <!-- Landing Page - Registration, Query and Feedback Form -->
+    <section id='register'>
+        <div class="signup-container">
+            <div class="left-container">
+                <div class="pic">
+                    <img
+                        src="https://images.unsplash.com/photo-1576438112307-db9c736ff392?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" />
                 </div>
-                <div class="col-md-6">
-                    <h1 class="onimage">CONVENTIONAL MEDIA</h1>
-                    <div class="thumbnail">                    
-                        <img src="https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" class="gridimg">
-                    </div>
-                </div> 
-
             </div>
-
-            <div class="row">
-
-                <div class="col-md-6 ">
-                        <h1 class="onimage">DIGITAL MARKETING</h1>
-                    <div class="thumbnail">                    
-                        <img src="https://images.unsplash.com/photo-1556800467-7b7ba9da0bf8?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80" class="gridimg">
+            <div class="right-container">
+                <header>
+                    <h1>Register </h1>
+                    <div class="set">
+                        <div class="name">
+                            <label for="name">Name</label>
+                            <input id="name" placeholder="Your name" type="text"></input>
+                        </div>
+                        <div class="photo">
+                            <button id="upload">
+                                <i class="fas fa-camera-retro"></i>
+                            </button>
+                            <label for="upload">Upload a photo</label>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6 ">             
-                        <h1 class="onimage">MEDIA PLANNING</h1>
-                    <div class="thumbnail">                    
-                        <img src="https://images.unsplash.com/photo-1585435465945-bef5a93f8849?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" class="gridimg">
+                    <div class="set">
+                        <div class="mail">
+                            <label for="mail">Email</label>
+                            <input id="mail" placeholder="something@abc.com" type="email"></input>
+                        </div>
+                        <div class="birthday">
+                            <label for="birthday">Birthday</label>
+                            <input id="birthday" placeholder="MM/DD/YYYY" type="text"></input>
+                        </div>
                     </div>
-                </div>    
-
+                    <div class="set">
+                        <div class="gender">
+                            <label for="gender-female">Gender</label>
+                            <div class="radio-container">
+                                <input id="gender-female" name="gender" type="radio" value="female"></input>
+                                <label for="gender-female">Female</label>
+                                <input id="gender-male" name="gender" type="radio" value="male"></input>
+                                <label for="gender-male">Male</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brand-management">
+                        <label for="brand-management">Service you require</label>
+                        <div class="radio-container">
+                            <input id="brand-management" name="service" type="radio" value="bm"></input>
+                            <label for="brand-management">Brand Management</label>
+                            <input id="digital-marketing" name="service" type="radio" value="dm"></input>
+                            <label for="digital-marketing">Digital Marketing</label>
+                            <input id="conventional-media" name="service" type="radio" value="cm"></input>
+                            <label for="conventional-media">Conventional Media</label>
+                            <input id="media-planning" name="service" type="radio" value="mp"></input>
+                            <label for="media-planning">Media Planning</label>
+                        </div>
+                    </div>
+                </header>
+                <footer>
+                    <div class="set">
+                        <button id="next">Submit</button>
+                    </div>
+                </footer>
             </div>
-
-        </section>
-
-        <!-- Landing Page - Registration, Query and Feedback Form -->
-        <section class="pxy-0 " id='services'>            
+        </div>
+    </section>
 
 
 
-        </section>
+    <!-- Footer -->
+    <footer class="col-md-12">
 
-        <!-- Footer -->
-        <footer>
+        <!-- Footer Links -->
+        <a class="footeritem" href="#">
+            <i class="lni lni-envelope footericon"> </i> <span class="footertext">hello.ADilka@gmail.com</span>
+        </a>
+        <a class="footeritem" href="#">
+            <i class="lni lni-phone footericon"> </i> <span class="footertext">+91-8345278902</span>
+        </a>
+        <a class="footeritem" href="#">
+            <i class="lni lni-facebook footericon"> </i><span class="footertext">ADilka</span>
+        </a>
+        <a class="footeritem" href="#">
+            <i class="lni lni-instagram footericon"> </i> <span class="footertext">advertiseWithADilka </span>
+        </a>
 
-            <!-- Footer Links -->
-            <a class="footeritem" href="#">
-                <i class="lni lni-envelope footericon"> </i> <span class="footertext">hello.ADilka@gmail.com</span> 
-            </a>
-            <a class="footeritem" href="#">
-                <i class="lni lni-phone footericon"> </i> <span class="footertext">+91-8345278902</span> 
-            </a>
-            <a class="footeritem" href="#">
-                <i class="lni lni-facebook footericon"> </i><span class="footertext">ADilka</span> 
-            </a>
-            <a class="footeritem" href="#">
-                <i class="lni lni-instagram footericon"> </i> <span class="footertext">advertiseWithADilka </span> 
-            </a>            
-            
-        </footer>
+    </footer>
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://kit.fontawesome.com/ff22f9fafb.js" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://kit.fontawesome.com/ff22f9fafb.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
-    </body>
+</body>
 
 </html>

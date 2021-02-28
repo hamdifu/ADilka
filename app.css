@@ -1,19 +1,153 @@
 body {
-	background: #243549;
-	font-family: 'Nunito', sans-serif;
+    background: #243549;
+    font-family: "Nunito", sans-serif;
+    align-items: center;
+    display: grid;
+    justify-items: center;
+	margin:0;
 }
 
-.blurb h2 {
-	color: #ea1c2c;
-	font-weight: 100;
-	font-size: 2.5rem;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+ * {
+	 box-sizing: border-box;
+	 margin: 0;
+	 padding: 0;
 }
 
-.blurb p {
-	color: #f498b8;
-	font-weight: 100;
-	font-size: 1.125rem;
-	line-height: 2;
+ .signup-container {
+	 display: grid;
+	 grid-template-areas: "left right";
+	 max-width: 1000px;
+}
+ .left-container {
+	 overflow: hidden;
+	 padding: 40px 0 0 0;
+	 position: relative;
+	 text-align: center;
+	 width: 500px;
+}
+
+ .left-container .pic {
+	 bottom: -5px;
+	 position: absolute;
+	 text-align: center;
+}
+ .left-container img {
+	 width: 100%;
+}
+ .right-container {
+	 background: rgb(4,123,163)     ;
+	 display: grid;
+	 grid-template-areas: "." ".";
+	 width: 500px;
+}
+ .right-container h1:nth-of-type(1) {
+	 color: rgba(256, 256, 256, 1);
+	 font-size: 28px;
+	 font-weight: 600;
+}
+ .right-container .set {
+	 display: flex;
+	 justify-content: space-between;
+	 margin: 20px 0;
+}
+ .right-container input {
+	 border: 1px solid #fff;
+	 border-radius: 4px;
+	 height: 38px;
+	 line-height: 38px;
+	 padding-left: 5px;
+}
+ .right-container input, .right-container label {
+	 color: #fff;
+}
+ .right-container header {
+	 padding: 40px;
+}
+ .right-container label, .right-container input, .right-container .photo {
+	 width: 176px;
+}
+ .right-container .photo {
+	 align-items: center;
+	 display: grid;
+	 grid-template-areas: ". .";
+}
+ .right-container .photo button {
+	 border: none;
+	 border-radius: 50%;
+	 height: 38px;
+	 margin-right: 10px;
+	 outline: none;
+	 width: 38px;
+}
+ .right-container .photo button i {
+	 color: rgba(0, 0, 0, .8);
+	 font-size: 16px;
+}
+ .right-container .brand-management .radio-container {
+	 display: flex;
+	 justify-content: space-between;
+	 width: 100%;
+     font-size: 8px;
+     color :#d32f2e;
+}
+ .right-container footer {
+	 align-items: center;
+	 background: #040404;
+	 display: grid;
+	 padding: 5px 40px;
+     align-items: center;
+	 margin:0;
+}
+ .right-container footer button {
+	 border: 1px solid rgba(0, 0, 0, .2);
+	 height: 38px;
+	 line-height: 38px;
+	 width: 100px;
+	 border-radius: 19px;
+	 font-family: 'Montserrat', sans-serif;
+	 font-size: x-large;
+}
+ .right-container footer #next {
+	 background: #d32f2e;
+	 border: 1px solid transparent;
+	 color: #fff; 
+}
+
+ .right-container footer #next:hover {
+	 background: #171a2b;
+}
+
+ .name label, .mail label, .birthday label, .gender label, .brand-management label {
+	 display: block;
+	 margin-bottom: 5px;
+}
+ .radio-container {
+	 background: #fff;
+	 border: 1px solid rgba(0, 0, 0, .1);
+	 border-radius: 4px;
+	 display: inline-block;
+	 padding: 5px;
+}
+ .radio-container label {
+	 background: transparent;
+	 border: 1px solid transparent;
+	 border-radius: 2px;
+	 display: inline-block;
+	 height: 26px;
+	 line-height: 26px;
+	 margin: 0;
+	 padding: 0;
+	 text-align: center;
+	 transition: 0.2s all ease-in-out;
+	 width: 80px;
+     color: rgb(117, 117, 117);
+}
+ .radio-container input[type="radio"] {
+	 display: none;
+}
+ .radio-container input[type="radio"]:checked + label {
+	 background: #f8a4a4;
 }
 
 .content {
@@ -183,13 +317,16 @@ body {
 }
 
 footer {
+	background-color: rgba(0, 0, 0, .4);
+	text-align: center;
 	color: white;
-	font-size: 2rem;
-	margin: 1rem 0;
+	font-size: 1rem;
+	margin: 0 0;
+	line-height: 50px;
 }
 
 .footericon {
-	font-size: 3rem;
+	font-size: 1rem;
 	color: white;
 }
 
@@ -200,9 +337,14 @@ footer {
 
 .footeritem:hover {
 	text-decoration: none;
-	color: inherit;
+	color: #5bc0de;
 }
 
 .footertext {
-	font-size: 1.7rem;
+	font-size: 1rem;
+}
+@media(max-width: 1024px){
+	.footertext{
+		display:none;
+	}
 }
