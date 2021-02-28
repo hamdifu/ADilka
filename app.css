@@ -35,11 +35,6 @@ body {
     color: #EA1C2C;
 }
 
-#mainNavbar .navbar-brand {
-    color: #EA1C2C;
-    font-size: 1.5rem;
-}
-
 #headingGroup span {
     color: #EA1C2C;
 }
@@ -49,16 +44,67 @@ body {
     font-size: 4rem;
 }
 
-.navbar.scrolled {
-    background: rgb(222,192,222);
-    transition: background 500ms;
-}
-
 .img-responsive {
     height: auto;
     width: auto;
     max-height: 72px;
     max-width: 250px;
+}
+
+.img-responsive-react {
+    height: auto;
+    width: auto;
+    max-height: 7rem;
+    max-width: 7rem;
+}
+
+.adlika{
+    font-weight: 4rem;
+    font-size: 2rem;
+    color: rgb(256,256,256);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.adlika:hover{
+    text-decoration: none;
+    color: rgb(256,256,256);
+
+}
+
+#side-buttons{
+    z-index: 100;
+    position: fixed;
+    top: 25%;
+    left: 97%;
+}
+
+#heading{
+    position: relative;
+    top: 220px;
+    color: rgb(77, 214, 77);
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#get-started{
+    position: relative;
+    top: 235px;
+    margin-left: 45%;
+}
+
+.navigate{
+    height: auto;
+    display: block;
+    color: #EA1C2C;
+    margin-top: 70px;
+}
+
+.navigate:hover{
+    text-shadow: rgba(0,0,0,0.2);
+    color:aliceblue;
 }
 
 @media (max-width: 1200px) {
@@ -70,3 +116,27 @@ body {
         font-size: 2rem;
     }
 }
+.section-margin{
+    margin-top: 80px;
+}
+
+@media (max-width: 800px){
+    .adlika{
+        font-size: 3rem;
+        margin-top: 10rem;
+        margin-left: 0.2rem;
+        margin-right: 0.2rem;
+    }
+    .reaction{
+        display: none;
+    }
+    #heading{
+        display: none;
+    }
+    #get-started{
+        display: none;
+    }
+    
+}
+
+
