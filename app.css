@@ -1,142 +1,183 @@
 body {
-    background: #243549;
-    font-family: "Nunito", sans-serif;
+	background: #243549;
+	font-family: 'Nunito', sans-serif;
 }
 
 .blurb h2 {
-   color: #EA1C2C;
-   font-weight: 100;
-   font-size: 2.5rem;
+	color: #ea1c2c;
+	font-weight: 100;
+	font-size: 2.5rem;
 }
 
 .blurb p {
-    color: #f498b8;
-    font-weight: 100;
-    font-size: 1.125rem;
-    line-height: 2;
+	color: #f498b8;
+	font-weight: 100;
+	font-size: 1.125rem;
+	line-height: 2;
 }
 
 .content {
-    margin-top: 100px;
-    margin-bottom: 100px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
 #mainNavbar {
-    font-size: 1.5rem;
-    font-weight: 100; 
-    background-color: rgba(256,256,256,0.2);   
+	font-size: 1.5rem;
+	font-weight: 100;
+	background-color: rgba(256, 256, 256, 0.6);
 }
 
 #mainNavbar .nav-link {
-    color: white;
+	color: white;
 }
 
 #mainNavbar .nav-link:hover {
-    color: #EA1C2C;
+	color: #ea1c2c;
+	font-size: 2rem;
+	font-weight: 400;
 }
 
 #headingGroup span {
-    color: #EA1C2C;
+	color: #ea1c2c;
 }
 
 #headingGroup h1 {
-    font-weight: 100;
-    font-size: 4rem;
+	font-weight: 100;
+	font-size: 4rem;
 }
 
 .img-responsive {
-    height: auto;
-    width: auto;
-    max-height: 72px;
-    max-width: 250px;
+	height: auto;
+	width: auto;
+	max-height: 72px;
+	max-width: 250px;
 }
 
 .img-responsive-react {
-    height: auto;
-    width: auto;
-    max-height: 7rem;
-    max-width: 7rem;
+	height: auto;
+	width: auto;
+	max-height: 7rem;
+	max-width: 7rem;
 }
 
-.adlika{
-    font-weight: 4rem;
-    font-size: 2rem;
-    color: rgb(256,256,256);
-    margin-left: 1rem;
-    margin-right: 1rem;
+.adlika {
+	font-weight: 4rem;
+	font-size: 2rem;
+	color: rgb(256, 256, 256);
+	margin-left: 1rem;
+	margin-right: 1rem;
 }
 
-.adlika:hover{
-    text-decoration: none;
-    color: rgb(256,256,256);
-
+.adlika:hover {
+	text-decoration: none;
+	color: rgb(256, 256, 256);
 }
 
-#side-buttons{
-    z-index: 100;
-    position: fixed;
-    top: 25%;
-    left: 97%;
+#side-buttons {
+	z-index: 100;
+	position: fixed;
+	top: 25%;
+	left: 95%;
+	background-color: rgba(0, 0, 0, 0.2);
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
-#heading{
-    position: relative;
-    top: 220px;
-    color: rgb(77, 214, 77);
-    font-family: sans-serif;
-    font-weight: 100;
-    font-size: 1.5rem;
-    text-align: center;
+#heading {
+	position: relative;
+	top: 220px;
+	color: rgb(77, 214, 77);
+	font-family: sans-serif;
+	font-weight: 100;
+	font-size: 1.5rem;
+	text-align: center;
 }
 
-#get-started{
-    position: relative;
-    top: 235px;
-    margin-left: 45%;
+#get-started {
+	position: relative;
+	top: 235px;
+	margin-left: 45%;
 }
 
-.navigate{
-    height: auto;
-    display: block;
-    color: #EA1C2C;
-    margin-top: 70px;
+.navigate {
+	height: auto;
+	display: block;
+	color: #5bc0de;
+	margin-top: 3.5rem;
+	margin-bottom: 3.5rem;
+	font-size: 2rem;
 }
 
-.navigate:hover{
-    text-shadow: rgba(0,0,0,0.2);
-    color:aliceblue;
+.navigate:hover {
+	text-shadow: rgba(0, 0, 0, 0.2);
+	color: aliceblue;
 }
 
 @media (max-width: 1200px) {
-    #headingGroup h1 {
-        font-weight: 100;
-        font-size: 3rem;
-    }
-    .blurb h2 {
-        font-size: 2rem;
-    }
+	#headingGroup h1 {
+		font-weight: 100;
+		font-size: 3rem;
+	}
+	.blurb h2 {
+		font-size: 2rem;
+	}
 }
-.section-margin{
-    margin-top: 80px;
-}
-
-@media (max-width: 800px){
-    .adlika{
-        font-size: 3rem;
-        margin-top: 10rem;
-        margin-left: 0.2rem;
-        margin-right: 0.2rem;
-    }
-    .reaction{
-        display: none;
-    }
-    #heading{
-        display: none;
-    }
-    #get-started{
-        display: none;
-    }
-    
+.section-margin {
+	margin-top: 80px;
 }
 
+@media (max-width: 800px) {
+	.adlika {
+		font-size: 3rem;
+		margin-top: 10rem;
+		margin-left: 0.2rem;
+		margin-right: 0.2rem;
+	}
+	.reaction {
+		display: none;
+	}
+	#heading {
+		display: none;
+	}
+	#get-started {
+		display: none;
+	}
+	#side-buttons {
+		display: none;
+	}
+}
 
+.gridimg {
+	height: 100%;
+	width: 100%;
+}
+
+#services {
+	margin-top: 5%;
+	background-color: rgba(0, 0, 0, 0.4);
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#services .col-md-6 {
+	margin: 0;
+	padding: 0;
+}
+
+.onimage {
+	z-index: 98;
+	position: relative;
+	top: 50%;
+	width: 75%;
+	text-align: center;
+	font-weight: 400;
+	background-color: rgba(0, 0, 0, 0.2);
+	color: rgb(256, 256, 256);
+	margin: auto auto;
+}
+
+#services .row .col-md-6 .thumbnail {
+	margin: 0;
+}
