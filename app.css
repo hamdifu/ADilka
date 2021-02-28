@@ -181,3 +181,28 @@ body {
 #services .row .col-md-6 .thumbnail {
 	margin: 0;
 }
+
+footer {
+	color: white;
+	font-size: 2rem;
+	margin: 1rem 0;
+}
+
+.footericon {
+	font-size: 3rem;
+	color: white;
+}
+
+.footeritem {
+	color: inherit;
+	padding: 1rem 3.7rem;
+}
+
+.footeritem:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+.footertext {
+	font-size: 1.7rem;
+}
